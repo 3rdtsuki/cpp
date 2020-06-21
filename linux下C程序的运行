@@ -1,0 +1,17 @@
+# sudo su -root //获取root权限
+sudo vi demo.c //用vi写程序
+
+# vi的操作：
+i 进入编辑模式
+ESC 进入命令模式 
+  x删除字符，dd删除整行
+  shift+: wq 回车保存并退出
+
+vi demo.c //打开文件（只读）
+  shift+: q! 不保存退出
+
+gcc -E demo.c -o demo.i //预处理
+gcc -S demo.i -o demo.s //编译 C->汇编
+gcc -c demo.s -o demo.o //汇编->机器语言
+gcc demo.c -o demo //生成可执行文件
+./demo //运行
