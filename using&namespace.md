@@ -4,7 +4,7 @@ namespace不能在主函数里面
 2.using namespace ns; 接下来都不用写空间名了  
 3.using ns::a; 接下来该元素不用写空间名了  
 想换的时候再写一遍新空间名即可  
-````cpp
+```cpp
 #include<iostream> 
 using namespace std;
 namespace fa{
