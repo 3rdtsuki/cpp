@@ -73,9 +73,6 @@ int main(){
 			}
 		}
 	}
-	while(!stack_op.empty()){
-        cal();
-	}
 	cout<<stack_num.top()<<' ';
 	return 0; 
 } 
